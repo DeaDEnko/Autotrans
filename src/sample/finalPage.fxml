@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #575757;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FinalController">
+    <children>
+        <Label layoutX="13.0" layoutY="5.0" prefHeight="52.0" prefWidth="152.0" text="АВТОТРАНС" textFill="WHITE">
+            <font>
+                <Font name="American Captain" size="41.0" />
+            </font>
+        </Label>
+        <Text fill="WHITE" layoutX="6.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ГРУЗОПЕРЕВОЗКИ">
+            <font>
+                <Font name="Calibri Light" size="22.0" />
+            </font>
+        </Text>
+        <AnchorPane layoutY="80.0" prefHeight="320.0" prefWidth="700.0" style="-fx-background-color: #7A7A7A;">
+            <children>
+                <Text fill="WHITE" layoutX="94.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Заказ успешно отправлен!">
+                    <font>
+                        <Font name="Calibri Light" size="46.0" />
+                    </font>
+                </Text>
+                <Button fx:id="customer" layoutX="77.0" layoutY="247.0" mnemonicParsing="false" style="-fx-background-color: #E7DAB1;" text="ОПОВЕСТИТЬ ЗАКАЗЧИКА">
+               <font>
+                  <Font name="Calibri Light" size="14.0" />
+               </font></Button>
+                <Button fx:id="driver" layoutX="442.0" layoutY="247.0" mnemonicParsing="false" prefHeight="12.0" prefWidth="179.0" style="-fx-background-color: #E7DAB1;" text="СООБЩИТЬ ВОДИТЕЛЮ">
+               <font>
+                  <Font name="Calibri Light" size="14.0" />
+               </font></Button>
+                <TextField fx:id="notification" alignment="CENTER" editable="false" layoutX="9.0" layoutY="282.0" prefHeight="37.0" prefWidth="680.0" style="-fx-background-color: #7A7A7A;">
+                    <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                    </font>
+                </TextField>
+            <Text fill="WHITE" layoutX="139.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Сообщите об адресе доставки водителю и уведомите заказчика о примерном времени ожидания и стоимости доставки." wrappingWidth="420.40234375">
+               <font>
+                  <Font name="Calibri Light Italic" size="27.0" />
+               </font>
+            </Text>
+            <Label layoutX="77.0" layoutY="169.0" prefHeight="52.0" prefWidth="544.0" text="Время доставки составляет 5-7 рабочих дней" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="123.0" layoutY="200.0" prefHeight="52.0" prefWidth="455.0" text="Стоимость доставки составляет 320р." textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="21.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+      <Button fx:id="main" layoutX="551.0" layoutY="24.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="112.0" style="-fx-background-color: #E7DAB1;" text="НА ГЛАВНУЮ">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #575757;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="13.0" layoutY="5.0" prefHeight="52.0" prefWidth="152.0" text="АВТОТРАНС" textFill="WHITE">
+         <font>
+            <Font name="American Captain" size="41.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="6.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ГРУЗОПЕРЕВОЗКИ">
+         <font>
+            <Font name="Calibri Light" size="22.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutY="80.0" prefHeight="320.0" prefWidth="700.0" style="-fx-background-color: #7A7A7A;">
+         <children>
+            <Text fill="WHITE" layoutX="5.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Поступившие заказы:">
+               <font>
+                  <Font name="Calibri Light" size="25.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="12.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="№0000351: г.Тверь, Советская 26, масса:              кг">
+               <font>
+                  <Font name="Calibri Light" size="21.0" />
+               </font>
+            </Text>
+            <Button fx:id="send1" layoutX="519.0" layoutY="30.0" mnemonicParsing="false" style="-fx-background-color: #E7DAB1;" text="ОТПРАВИТЬ">
+               <font>
+                  <Font name="Calibri Light" size="12.0" />
+               </font></Button>
+            <Button fx:id="send2" layoutX="519.0" layoutY="59.0" mnemonicParsing="false" style="-fx-background-color: #E7DAB1;" text="ОТПРАВИТЬ">
+               <font>
+                  <Font name="Calibri Light" size="12.0" />
+               </font></Button>
+            <Button fx:id="send3" layoutX="519.0" layoutY="88.0" mnemonicParsing="false" style="-fx-background-color: #E7DAB1;" text="ОТПРАВИТЬ">
+               <font>
+                  <Font name="Calibri Light" size="12.0" />
+               </font></Button>
+            <Button fx:id="send4" layoutX="519.0" layoutY="117.0" mnemonicParsing="false" style="-fx-background-color: #E7DAB1;" text="ОТПРАВИТЬ">
+               <font>
+                  <Font name="Calibri Light" size="12.0" />
+               </font></Button>
+            <TextField fx:id="mass1" editable="false" layoutX="375.0" layoutY="21.0" prefHeight="42.0" prefWidth="63.0" style="-fx-background-color: #7A7A7A;" text="340">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+            </TextField>
+            <Text fill="WHITE" layoutX="12.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="№0000352: г.Тула, Лермонтова 7, масса:           кг">
+               <font>
+                  <Font name="Calibri Light" size="21.0" />
+               </font>
+            </Text>
+            <TextField fx:id="mass12" editable="false" layoutX="371.0" layoutY="49.0" prefHeight="42.0" prefWidth="52.0" style="-fx-background-color: #7A7A7A;" text="88">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+            </TextField>
+            <Text fill="WHITE" layoutX="12.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="№0000353: г.Тула, Зеленая 34, масса:               кг">
+               <font>
+                  <Font name="Calibri Light" size="21.0" />
+               </font>
+            </Text>
+            <TextField fx:id="mass3" editable="false" layoutX="349.0" layoutY="78.0" prefHeight="42.0" prefWidth="63.0" style="-fx-background-color: #7A7A7A;" text="190">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+            </TextField>
+            <Text fill="WHITE" layoutX="12.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="№0000354: г.Казань, Пушкина 163, масса:                 кг">
+               <font>
+                  <Font name="Calibri Light" size="21.0" />
+               </font>
+            </Text>
+            <TextField fx:id="mass4" editable="false" layoutX="386.0" layoutY="108.0" prefHeight="42.0" prefWidth="75.0" style="-fx-background-color: #7A7A7A;" text="1600">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+            </TextField>
+            <Text fill="WHITE" layoutX="5.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Свободный транспорт:">
+               <font>
+                  <Font name="Calibri Light" size="25.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="12.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Легковой автомобиль грузоподъёмностью до              кг ">
+               <font>
+                  <Font name="Calibri Light" size="21.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="12.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Легковой автомобиль грузоподъёмностью до              кг">
+               <font>
+                  <Font name="Calibri Light" size="21.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="12.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Грузовая газель грузоподъёмностью до                   кг">
+               <font>
+                  <Font name="Calibri Light" size="21.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="12.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Грузовая газель грузопдъёмностью до                     кг">
+               <font>
+                  <Font name="Calibri Light" size="21.0" />
+               </font>
+            </Text>
+            <Button fx:id="choise1" layoutX="525.0" layoutY="168.0" mnemonicParsing="false" style="-fx-background-color: #E7DAB1;" text="ВЫБРАТЬ">
+               <font>
+                  <Font name="Calibri Light" size="12.0" />
+               </font></Button>
+            <Button fx:id="choise2" layoutX="525.0" layoutY="198.0" mnemonicParsing="false" style="-fx-background-color: #E7DAB1;" text="ВЫБРАТЬ">
+               <font>
+                  <Font name="Calibri Light" size="12.0" />
+               </font></Button>
+            <Button fx:id="choise3" layoutX="525.0" layoutY="228.0" mnemonicParsing="false" style="-fx-background-color: #E7DAB1;" text="ВЫБРАТЬ">
+               <font>
+                  <Font name="Calibri Light" size="12.0" />
+               </font></Button>
+            <Button fx:id="choise4" layoutX="525.0" layoutY="258.0" mnemonicParsing="false" style="-fx-background-color: #E7DAB1;" text="ВЫБРАТЬ">
+               <font>
+                  <Font name="Calibri Light" size="12.0" />
+               </font></Button>
+            <TextField fx:id="loadCapacity1" editable="false" layoutX="418.0" layoutY="163.0" prefHeight="42.0" prefWidth="63.0" style="-fx-background-color: #7A7A7A;" text="250">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="loadCapacity2" editable="false" layoutX="418.0" layoutY="194.0" prefHeight="42.0" prefWidth="63.0" style="-fx-background-color: #7A7A7A;" text="400">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="loadCapacity3" editable="false" layoutX="372.0" layoutY="223.0" prefHeight="42.0" prefWidth="75.0" style="-fx-background-color: #7A7A7A;" text="1000">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="loadCapacity4" editable="false" layoutX="371.0" layoutY="253.0" prefHeight="42.0" prefWidth="69.0" style="-fx-background-color: #7A7A7A;" text="2000">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="notification" alignment="CENTER" editable="false" layoutX="9.0" layoutY="284.0" prefHeight="37.0" prefWidth="680.0" style="-fx-background-color: #7A7A7A;">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <Text fill="WHITE" layoutX="258.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="КОЛИЧЕСВТО ОБРАБОТАННЫХ ЗАКАЗОВ:">
+         <font>
+            <Font name="Calibri Light" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="quantity" editable="false" layoutX="601.0" layoutY="23.0" prefHeight="25.0" prefWidth="76.0" promptText="0" style="-fx-background-color: #575757;" text="0">
+         <font>
+            <Font name="Calibri Light Italic" size="23.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
